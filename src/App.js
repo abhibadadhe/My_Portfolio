@@ -5,7 +5,7 @@ import about from './img/about.jpg';
 import work3 from './img/work3.jpg';
 import work2 from './img/work2.jpg';
 import work1 from './img/work1.jpg';
-import profile from './img/about1.jpg';
+import profile from './img/about.jpg';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <header className="l-header">
         <nav className="nav bd-grid">
           <div>
-            <a href="#home" className="nav__logo">ABHISHEK BADADHE</a>
+            <a href="#home" className="nav__logo">HARSHADA AHIRE</a>
           </div>
 
           <div className="nav__menu" id="nav-menu">
@@ -35,7 +35,7 @@ function App() {
       <main className="l-main">
         <section className="home bd-grid" id="home">
           <div className="home__data">
-            <h1 className="home__title">Hi,I'am <br /><span className="home__title-color">Abhishek</span><br /> Web designer</h1>
+            <h1 className="home__title">Hi,I'am <br /><span className="home__title-color">Harshada</span><br /> Web designer</h1>
             
           </div>
           <div className="home__social">
@@ -63,7 +63,7 @@ function App() {
               <img src={about} alt="" />
             </div>
             <div>
-              <h2 className="about__subtitle">I'am Abhishek Badadhe</h2>
+              <h2 className="about__subtitle">I'am Harshada Ahire</h2>
               <p className="about__text">I am student of Sanjvani College Of Engineering Kopargaon<br></br> Information Technology <br></br>Second Year</p>
             </div>
           </div>
@@ -134,8 +134,8 @@ span></div>
       </main>
 
       <footer className="footer" id ="foter">
-        <p className="footer__title">Abhishek Badadhe</p>
-        <p className="footer__copy">&#169; Abhishek Badadhe <br></br>Contact : +91 9028553395<br></br>Adress : Sanjivani College Of Engineering Kopargaon</p>
+        <p className="footer__title">Harshada Ahire</p>
+        <p className="footer__copy">&#169; Harshada Ahire <br></br>Contact : +91 9595059653<br></br>Address : Sanjivani College Of Engineering Kopargaon</p>
       </footer>
     </>
   );
